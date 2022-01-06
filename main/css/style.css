@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'serif';
+    src: url('serif.woff2') format('woff2'),
+         url('serif.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+body{
+	font-family: 'Markazi Text', serif;
+	background-color:black;
+	overflow:hidden !important;
+	
+}
+html{
+	overflow:hidden !important;
+}
+.image{
+	
+}
+.center1{
+	
+  position: absolute;
+  text-align: center;
+   top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.color1{
+	color:#17738f !important;
+}
+.targol{
+	width:360px;
+	height:520px;
+	background-image:url("../img/homeCover.jpg");
+	background-size: cover;
+	
+}
+.tar{
+	position: absolute;
+  text-align: center;
+   
+  top:20%;
+  left: 50%;
+  transform: translateX(-50%);
+	width:262px;
+	height:332px;
+  background-image:url("../img/logo-white.png");
+  background-size: cover;
+}
+
+
+h1{
+	
+}
